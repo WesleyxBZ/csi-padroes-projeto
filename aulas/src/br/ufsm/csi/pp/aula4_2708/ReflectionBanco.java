@@ -11,7 +11,7 @@ public class ReflectionBanco {
             InstantiationException, InvocationTargetException {
 
         // String nomeClasse = args[0];
-        Class classe = Class.forName("br.ufsm.csi.pp.aula3_4_2008_2708.meuCodigo.Conta");
+        Class classe = Class.forName("br.ufsm.csi.pp.aula3_4_2008_2708.Conta");
         Object instancia = classe.newInstance();
 
         for (Field field : classe.getDeclaredFields()) {
