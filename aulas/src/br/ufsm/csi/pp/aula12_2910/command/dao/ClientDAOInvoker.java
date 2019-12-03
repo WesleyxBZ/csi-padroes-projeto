@@ -1,10 +1,7 @@
 package br.ufsm.csi.pp.aula12_2910.command.dao;
 
 import br.ufsm.csi.pp.aula12_2910.command.model.Client;
-import br.ufsm.csi.pp.aula12_2910.command.repository.GetClientCommand;
-import br.ufsm.csi.pp.aula12_2910.command.repository.InsertClientCommand;
-import br.ufsm.csi.pp.aula12_2910.command.repository.RemoveClientCommand;
-import br.ufsm.csi.pp.aula12_2910.command.repository.UpdateClientCommand;
+import br.ufsm.csi.pp.aula12_2910.command.repository.*;
 
 import javax.sql.DataSource;
 import java.sql.Connection;

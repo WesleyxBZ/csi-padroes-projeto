@@ -1,7 +1,6 @@
 package br.ufsm.csi.pp.aula12_2910.command.repository;
 
 import br.ufsm.csi.pp.aula12_2910.command.dao.ClientDAOCallBack;
-import br.ufsm.csi.pp.aula12_2910.command.dao.DAOCommand;
 import br.ufsm.csi.pp.aula12_2910.command.model.Client;
 
 import java.sql.Connection;

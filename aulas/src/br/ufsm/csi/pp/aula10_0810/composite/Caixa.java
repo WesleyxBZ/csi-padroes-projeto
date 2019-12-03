@@ -1,12 +1,12 @@
 package br.ufsm.csi.pp.aula10_0810.composite;
 
 import java.util.ArrayList;
-import java.util.Collection;
+import java.util.List;
 
 public class Caixa implements ObjetoEntregavel {
 
     private Double precoCaixa;
-    private Collection<ObjetoEntregavel> objetosContidos = new ArrayList<>();
+    private List<ObjetoEntregavel> objetosContidos = new ArrayList<>();
 
     public Caixa(Double precoCaixa) {
         this.precoCaixa = precoCaixa;

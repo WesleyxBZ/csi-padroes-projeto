@@ -1,6 +1,5 @@
 package br.ufsm.csi.pp.aula10_0810.decorator;
 
-import br.ufsm.csi.pp.aula3_4_2008_2708.Banco;
 import br.ufsm.csi.pp.aula3_4_2008_2708.BancoInterface;
 import br.ufsm.csi.pp.aula3_4_2008_2708.Conta;
 

@@ -1,0 +1,39 @@
+@startuml
+
+title \nDiagrama de classe - Trabalho Padrões de Projeto CSI\n
+
+hide empty members
+skinparam DefaultFontName arial
+skinparam Shadowing true
+
+class Prato {
+    - id: Long
+    - nome: String
+    - descricao: String
+    - ingredientes: List<Ingrediente>
+    - resturante: Restaurante
+    - chef: Chef
+}
+
+class Cardapio {
+    - id: Long
+    - pratos: List<Prato>
+    - resturante: Restaurante
+    - data: Date
+}
+
+class Restaurante {
+    - id: Long
+    - nome: String
+    - cnpj: String
+    - endereco: Endereco
+    - telefone: String
+    - cardapios: List<Cardapio>
+    - pratos: List<Prato>
+}
+
+Cardapio "1"--"*" Prato
+Restaurante "1"--"*" Cardapio
+Restaurante "1"--"*" Prato
+
+@enduml
